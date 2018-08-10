@@ -1,0 +1,37 @@
+﻿@model IEnumerable<WintersAuthorSite_MVC.Publication>
+
+@{
+    ViewData["Title"] = "Publications";
+}
+
+<h2>Publications</h2>
+
+<table class="table">
+    <tbody>
+        @foreach (Publication item in Model)
+        {
+            <tr>
+                <td id="viewCell">
+                    <a href="@item.Link" target="_blank">View</a>
+                </td>
+                <td id="titleCell">
+                    @item.Title
+                    <br />
+                    <br />
+                    @($"{item.Date:M/d/yyyy}")
+                    <br />
+                    <br />
+                    <i>@item.Publisher</i>
+                </td>
+                <td id="snippetCell">
+                    <p>
+                        @item.Snippet
+                    </p>
+                </td>
+                <td id="imageCell">
+                    <img src="data:image/jpg;base64, @item.ImageBase64" alt="@item.ImageName" />
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

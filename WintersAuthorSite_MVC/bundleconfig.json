@@ -1,0 +1,26 @@
+[
+  {
+    "outputFileName": "wwwroot/css/navbar-fixed-left.min.css",
+    "inputFiles": [
+      "wwwroot/css/navbar-fixed-left.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/css/site.min.css",
+    "inputFiles": [
+      "wwwroot/css/site.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/css/side-nav.min.css",
+    "inputFiles": [
+      "wwwroot/css/side-nav.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/css/sidebar.min.css",
+    "inputFiles": [
+      "wwwroot/css/sidebar.css"
+    ]
+  }
+]
