@@ -1,0 +1,14 @@
+C:\Users\SEXTON\Documents\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=WintersAuthorSite_MVC
+--content-root=C:\Users\SEXTON\Documents\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC
+--file=C:\Users\SEXTON\Documents\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\Views\Author\About.cshtml
+--file=C:\Users\SEXTON\Documents\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\Views\Author\Contact.cshtml
+--file=C:\Users\SEXTON\Documents\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\Views\Publications\Gravedigger.cshtml
+--file=C:\Users\SEXTON\Documents\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\Views\Publications\List.cshtml
+--file=C:\Users\SEXTON\Documents\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\Views\Publications\Nabit.cshtml
+--file=C:\Users\SEXTON\Documents\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\Views\Publications\Read.cshtml
+--file=C:\Users\SEXTON\Documents\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\Views\Shared\_Layout.cshtml
+--file=C:\Users\SEXTON\Documents\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\Users\SEXTON\Documents\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\Views\_ViewImports.cshtml
+--file=C:\Users\SEXTON\Documents\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\Views\_ViewStart.cshtml
