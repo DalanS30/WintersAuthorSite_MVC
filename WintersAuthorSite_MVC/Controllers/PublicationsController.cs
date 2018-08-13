@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace WintersAuthorSite_MVC.Controllers.Publications
 {
@@ -12,9 +8,34 @@ namespace WintersAuthorSite_MVC.Controllers.Publications
         {
             return View("List", Utils.GetPublications());
         }
+
         public IActionResult List()
         {
             return View("List", Utils.GetPublications());
+        }
+
+        public IActionResult Gravedigger()
+        {
+            return View();
+        }
+
+        public FileResult Download(string fileName)
+        {
+            if (System.IO.File.Exists($"wwwroot/data/{fileName}"))
+            {
+                return File(System.IO.File.ReadAllBytes($"wwwroot/data/{fileName}"), "application/x-msdownload", fileName);
+            }
+            return null;
+        }
+
+        public IActionResult Read()
+        {
+            return View();
+        }
+
+        public IActionResult Nabit()
+        {
+            return View();
         }
     }
 }

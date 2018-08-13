@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewData["Title"] = "Gravedigger";
+}
+
+<h2>Gravedigger: Six Feet Deep</h2>
+
+<div class="row">
+    <div class="col-sm-12">
+        <img class="center gravedigger rounded" src="~/img/gravedigger.jpg" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <ul>
+            <li>
+                <a asp-controller="Publications" asp-action="Read">Read Gravedigger: Six Feet Deep in your browser</a>
+            </li>
+            <li>
+                <a asp-controller="Publications" asp-action="Download" asp-route-fileName="GravediggerSixFeetDeep.epub">Download as an ePub file (Nook)</a>
+            </li>
+            <li>
+                <a asp-controller="Publications" asp-action="Download" asp-route-fileName="GravediggerSixFeetDeep.mobi">Download as a Mobi file (Kindle)</a>
+            </li>
+            <li>
+                <a asp-controller="Publications" asp-action="Download" asp-route-fileName="GravediggerSixFeetDeep-Numbered.pdf">Download as a PDF file (formatted for a computer)</a>
+            </li>
+            <li>
+                <a asp-controller="Publications" asp-action="Download" asp-route-fileName="GravediggerSixFeetDeep-Mobile.pdf">Download as a PDF file (formatted for mobile)</a>
+            </li>
+        </ul>
+    </div>
+</div>

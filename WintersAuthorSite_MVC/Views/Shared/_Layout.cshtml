@@ -7,6 +7,7 @@
 
     <environment include="Development">
         <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
         <script src="~/lib/jquery/dist/jquery.min.js"></script>
         <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -22,6 +23,11 @@
     </environment>
 </head>
 <body>
+    <script>
+        function SimulateClick(id) {
+            $('#' + id)[0].click();
+        }
+    </script>
     <div class="nav-side-menu">
         <div class="brand">
             Patrick Winters
@@ -29,14 +35,20 @@
         <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
         <div class="menu-list">
             <ul id="menu-content" class="menu-content collapse out">
-                <li>
-                    <a asp-controller="Publications" asp-action="List">Publications</a>
+                <li onclick="SimulateClick('publicationsAnchor');">
+                    <a id="publicationsAnchor" asp-controller="Publications" asp-action="List">Publications Listing</a>
                 </li>
-                <li>
-                    <a asp-controller="Author" asp-action="About">About</a>
+                <li onclick="SimulateClick('gravediggerAnchor');">
+                    <a id="gravediggerAnchor" asp-controller="Publications" asp-action="Gravedigger">Gravedigger Collection</a>
                 </li>
-                <li>
-                    <a asp-controller="Author" asp-action="Contact">Contact</a>
+                <li onclick="SimulateClick('nabitAnchor');">
+                    <a id="nabitAnchor" asp-controller="Publications" asp-action="Nabit">Nab-it Rabbit</a>
+                </li>
+                <li onclick="SimulateClick('aboutAnchor');">
+                    <a id="aboutAnchor" asp-controller="Author" asp-action="About">About</a>
+                </li>
+                <li onclick="SimulateClick('contactAnchor');">
+                    <a id="contactAnchor" asp-controller="Author" asp-action="Contact">Contact</a>
                 </li>
             </ul>
         </div>

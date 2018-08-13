@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Xml.XPath;
 
 namespace WintersAuthorSite_MVC
 {
     public static class Utils
     {
-        private const string PublicationsXML = @"https://raw.githubusercontent.com/DalanS30/WintersAuthorSite_MVC/master/XML-Data/Publications.xml";
-        private const string ImagesXML = @"https://raw.githubusercontent.com/DalanS30/WintersAuthorSite_MVC/master/XML-Data/Images.xml";
+        private static string PublicationsXML = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot//data//Publications.xml");
+        private static string ImagesXML = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot//data//Images.xml");
 
         public static string GetImageBase64(string imageName)
         {
