@@ -11,8 +11,12 @@
         @foreach (Publication item in Model)
         {
             <tr>
-                <td id="viewCell">
-                    <a href="@item.Link" target="_blank">View</a>
+                <td id="viewCell" class="text-center">
+                    <br />
+                    <br />
+                    <a href="@item.Link" class="btn btn-secondary center-vertically" target="_blank">View</a>
+                    <br />
+                    <br />
                 </td>
                 <td id="titleCell">
                     @item.Title
@@ -29,7 +33,7 @@
                     </p>
                 </td>
                 <td id="imageCell" class="d-none d-sm-block">
-                    <img class="cover rounded" src="data:image/jpg;base64, @item.ImageBase64" alt="@item.ImageName" />
+                    <img class="cover rounded" src="~/img/publications/@item.ImageName" alt="@item.ImageName" />
                 </td>
             </tr>
         }

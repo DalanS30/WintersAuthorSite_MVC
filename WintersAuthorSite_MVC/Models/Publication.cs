@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace WintersAuthorSite_MVC
 {
@@ -14,13 +10,5 @@ namespace WintersAuthorSite_MVC
         public string Snippet { get; set; }
         public string Link { get; set; }
         public string ImageName { get; set; }
-        [DisplayName("Image")]
-        public string ImageBase64
-        {
-            get
-            {
-                return Utils.GetImageBase64(ImageName);
-            }
-        }
     }
 }

@@ -10,8 +10,10 @@
     margin-left: 225px;
 }
 
-/* Nab-it Rabbit */
+.center-vertically {
+}
 
+/* Nab-it Rabbit */
 #carousel-holder, #carousel, #carousel-inner {
     width: 100%;
     height: 100%;
@@ -110,7 +112,7 @@
 
 .bio-img {
     max-width: 250px;
-    border-radius: 300px;
+    border-radius: 20px;
 }
 
 .center {
