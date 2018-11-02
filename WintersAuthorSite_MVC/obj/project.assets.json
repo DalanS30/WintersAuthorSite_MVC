@@ -6152,17 +6152,17 @@
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
-      "sha512": "eNk+9scWQdohoN4lYrldflwCc65A1/dEUGgwPcu7S/3TLZK0DHueOpsypxaq4lw1GPqtKMEsq1/aC0C3KW2opA==",
+      "sha512": "HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "files": [
-        "Microsoft.CodeAnalysis.Analyzers.1.1.0.nupkg.sha512",
-        "Microsoft.CodeAnalysis.Analyzers.nuspec",
         "ThirdPartyNotices.rtf",
         "analyzers/dotnet/cs/Microsoft.CodeAnalysis.Analyzers.dll",
         "analyzers/dotnet/cs/Microsoft.CodeAnalysis.CSharp.Analyzers.dll",
         "analyzers/dotnet/vb/Microsoft.CodeAnalysis.Analyzers.dll",
         "analyzers/dotnet/vb/Microsoft.CodeAnalysis.VisualBasic.Analyzers.dll",
+        "microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",
+        "microsoft.codeanalysis.analyzers.nuspec",
         "tools/install.ps1",
         "tools/uninstall.ps1"
       ]
@@ -10311,12 +10311,10 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "+cbJ/nM+DsTJguu89DymH62j+NeCtYTNjGfX5awepPzOuGcbeXPxQHX8q/hpE4agL9fO7OolBVfha3ymWL5AdA==",
+      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
-        "System.Linq.Queryable.4.0.1.nupkg.sha512",
-        "System.Linq.Queryable.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/monoandroid10/_._",
@@ -10364,7 +10362,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.linq.queryable.4.0.1.nupkg.sha512",
+        "system.linq.queryable.nuspec"
       ]
     },
     "System.Net.Http/4.3.0": {
@@ -13251,23 +13251,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SEXTON\\.nuget\\packages\\": {},
+    "C:\\Users\\Davey\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SEXTON\\Documents\\GitHub\\WintersAuthorSite_MVC\\WintersAuthorSite_MVC\\WintersAuthorSite_MVC.csproj",
+      "projectUniqueName": "T:\\GitHub\\WintersAuthorSite_MVC\\WintersAuthorSite_MVC\\WintersAuthorSite_MVC.csproj",
       "projectName": "WintersAuthorSite_MVC",
-      "projectPath": "C:\\Users\\SEXTON\\Documents\\GitHub\\WintersAuthorSite_MVC\\WintersAuthorSite_MVC\\WintersAuthorSite_MVC.csproj",
-      "packagesPath": "C:\\Users\\SEXTON\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SEXTON\\Documents\\GitHub\\WintersAuthorSite_MVC\\WintersAuthorSite_MVC\\obj\\",
+      "projectPath": "T:\\GitHub\\WintersAuthorSite_MVC\\WintersAuthorSite_MVC\\WintersAuthorSite_MVC.csproj",
+      "packagesPath": "C:\\Users\\Davey\\.nuget\\packages\\",
+      "outputPath": "T:\\GitHub\\WintersAuthorSite_MVC\\WintersAuthorSite_MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\SEXTON\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Davey\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

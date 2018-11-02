@@ -9,3 +9,14 @@ C:\Users\SEXTON\Documents\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\obj
 C:\Users\SEXTON\Documents\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\bin\Debug\netcoreapp2.0\WintersAuthorSite_MVC.pdb
 C:\Users\SEXTON\Documents\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\obj\Debug\netcoreapp2.0\WintersAuthorSite_MVC.dll
 C:\Users\SEXTON\Documents\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\obj\Debug\netcoreapp2.0\WintersAuthorSite_MVC.pdb
+T:\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\bin\Debug\netcoreapp2.0\WintersAuthorSite_MVC.deps.json
+T:\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\bin\Debug\netcoreapp2.0\WintersAuthorSite_MVC.runtimeconfig.json
+T:\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\bin\Debug\netcoreapp2.0\WintersAuthorSite_MVC.runtimeconfig.dev.json
+T:\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\bin\Debug\netcoreapp2.0\WintersAuthorSite_MVC.dll
+T:\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\bin\Debug\netcoreapp2.0\WintersAuthorSite_MVC.pdb
+T:\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\obj\Debug\netcoreapp2.0\WintersAuthorSite_MVC.csprojAssemblyReference.cache
+T:\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\obj\Debug\netcoreapp2.0\WintersAuthorSite_MVC.csproj.CoreCompileInputs.cache
+T:\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\obj\Debug\netcoreapp2.0\WintersAuthorSite_MVC.AssemblyInfoInputs.cache
+T:\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\obj\Debug\netcoreapp2.0\WintersAuthorSite_MVC.AssemblyInfo.cs
+T:\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\obj\Debug\netcoreapp2.0\WintersAuthorSite_MVC.dll
+T:\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\obj\Debug\netcoreapp2.0\WintersAuthorSite_MVC.pdb
