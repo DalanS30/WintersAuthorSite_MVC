@@ -24,7 +24,8 @@ namespace WintersAuthorSite_MVC
                     Publisher = nodeIterator.Current.SelectSingleNode("publisher").Value,
                     Snippet = nodeIterator.Current.SelectSingleNode("snippet").Value,
                     Link = nodeIterator.Current.SelectSingleNode("link").Value,
-                    ImageName = nodeIterator.Current.SelectSingleNode("image").Value.ToLower()
+                    ImageName = nodeIterator.Current.SelectSingleNode("image").Value.ToLower(),
+                    Style = nodeIterator.Current.SelectSingleNode("style").Value.ToLower()
                 });
             }
             return pubList;

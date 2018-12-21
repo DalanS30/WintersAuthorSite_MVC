@@ -10,5 +10,6 @@ namespace WintersAuthorSite_MVC
         public string Snippet { get; set; }
         public string Link { get; set; }
         public string ImageName { get; set; }
+        public string Style { get; set; }
     }
 }
