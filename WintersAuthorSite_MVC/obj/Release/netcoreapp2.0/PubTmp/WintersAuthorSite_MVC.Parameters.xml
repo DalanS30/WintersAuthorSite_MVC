@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="IIS Web Application Name" description="" value="wintersauthor" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\dsext4287\\Documents\\GitHub\\WintersAuthorSite_MVC\\WintersAuthorSite_MVC\\obj\\Release\\netcoreapp2\.0\\PubTmp\\Out\\$" />
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^T:\\Programs\\GitHub\\WintersAuthorSite_MVC\\WintersAuthorSite_MVC\\obj\\Release\\netcoreapp2\.0\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>
