@@ -37,5 +37,10 @@ namespace WintersAuthorSite_MVC.Controllers.Publications
         {
             return View();
         }
+
+        public IActionResult Daisy()
+        {
+            return View();
+        }
     }
 }
