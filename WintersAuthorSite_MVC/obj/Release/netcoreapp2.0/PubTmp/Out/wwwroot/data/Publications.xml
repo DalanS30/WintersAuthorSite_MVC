@@ -1,6 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Publications>
-    <Publication>
+  <Publication>
+    <title>&quot;Sick Boy&quot;</title>
+    <date>06/21/2020</date>
+    <publisher>Trembling With Fear</publisher>
+    <snippet>This drabble proves that nothing haunts a person quite like loss . . .</snippet>
+    <link>https://horrortree.com/trembling-with-fear-06-21-20/</link>
+    <image>sickBoy-min.JPG</image>
+    <style>normal</style>
+  </Publication>
+  <Publication>
     <title>&quot;Calling&quot;, &quot;Service&quot;, &amp; &quot;Reward&quot;</title>
     <date>05/12/2020</date>
     <publisher>The Horror Tree - The Unholy Trinity</publisher>
@@ -9,7 +18,6 @@
     <image>unholyTrinity-min.JPG</image>
     <style>normal</style>
   </Publication>
-  
   <Publication>
     <title>&quot;First Date&quot;, &quot;Separated&quot;, &amp; &quot;Separated Again&quot;</title>
     <date>03/17/2020</date>
