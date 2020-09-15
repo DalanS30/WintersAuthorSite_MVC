@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Xml.XPath;
 
 namespace WintersAuthorSite_MVC
@@ -28,7 +29,7 @@ namespace WintersAuthorSite_MVC
                     Style = nodeIterator.Current.SelectSingleNode("style").Value.ToLower()
                 });
             }
-            return pubList;
+            return pubList.OrderByDescending(x => x.Date).ToList();
         }
     }
 }
