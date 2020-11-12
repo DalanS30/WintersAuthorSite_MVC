@@ -42,6 +42,5 @@ C:\Users\dsext4287\Documents\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\
 C:\Users\dsext4287\Documents\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\obj\Release\netcoreapp2.0\WintersAuthorSite_MVC.dll
 C:\Users\dsext4287\Documents\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\obj\Release\netcoreapp2.0\WintersAuthorSite_MVC.pdb
 T:\Programs\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\bin\Release\netcoreapp2.0\bundleconfig.json
-T:\Programs\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\bin\Release\netcoreapp2.0\Properties\launchSettings.json
 T:\Programs\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\obj\Release\netcoreapp2.0\WintersAuthorSite_MVC.csproj.CoreCompileInputs.cache
 T:\Programs\GitHub\WintersAuthorSite_MVC\WintersAuthorSite_MVC\obj\Release\netcoreapp2.0\WintersAuthorSite_MVC.genruntimeconfig.cache
